@@ -1,0 +1,174 @@
+NOVATECH SOLUTIONS PRIVATE LIMITED
+COMPANY-WIDE REFERENCE DOCUMENT
+
+Document ID    : NT-GEN-001
+Title          : Working Hours, Shifts and Holiday Calendar 2026
+Department     : General / People Operations
+Version        : 7.0
+Effective Date : 01 January 2026
+Valid Until    : 31 December 2026
+Owner          : People Operations with Site Leadership
+Applies To     : All NovaTech locations in India
+
+--------------------------------------------------------------------
+PART 1 - STANDARD WORKING HOURS
+--------------------------------------------------------------------
+Working week      : Monday to Friday
+Weekly off        : Saturday and Sunday
+Standard hours    : 09:30 to 18:30 IST
+Working duration  : 8 hours of work plus a 1-hour break
+Weekly commitment : 40 hours
+
+Flexible start    : Employees may start any time between 08:00 and
+                    11:00 and finish 9 hours later.
+                    Start 08:00 -> finish 17:00
+                    Start 09:30 -> finish 18:30
+                    Start 11:00 -> finish 20:00
+
+Core hours        : 11:00 to 16:00 IST. Every employee must be
+                    available during core hours, whether in the office
+                    or working from home. Meetings are scheduled inside
+                    core hours wherever possible.
+
+Lunch             : 1 hour, normally between 13:00 and 14:30. Not
+                    counted as working time.
+Short breaks      : Two 15-minute breaks are counted as working time.
+
+Attendance recording rules, late marks and how to correct a missed
+punch are in NT-HR-003 (Attendance Policy). This document defines the
+hours themselves.
+
+--------------------------------------------------------------------
+PART 2 - SHIFTS
+--------------------------------------------------------------------
+Some teams operate shifts to support global customers.
+
+Shift A (India)   : 09:30 to 18:30 IST  - default for most teams
+Shift B (Europe)  : 12:30 to 21:30 IST  - shift allowance INR 250/day
+Shift C (Americas): 18:00 to 03:00 IST  - shift allowance INR 600/day
+                                          plus company-provided cab
+                                          both ways
+Shift D (Early)   : 06:30 to 15:30 IST  - shift allowance INR 250/day
+
+Shift rules:
+  - Shift rosters are published at least 14 calendar days in advance.
+  - No employee may be rostered on Shift C for more than 90
+    consecutive calendar days without a 30-day break.
+  - Employees on Shift C are not required to attend the monthly
+    All-Hands in person.
+  - A change of shift with less than 14 days notice requires the
+    employee's written consent.
+  - Shift allowances are paid with salary automatically and are NOT
+    claimed through NovaSpend.
+
+--------------------------------------------------------------------
+PART 3 - ON-CALL AND OVERTIME
+--------------------------------------------------------------------
+3.1 On-call rotation applies to Engineering and IT Operations only.
+    On-call allowance: INR 1,000 per weekday night, INR 2,000 per
+    weekend day or public holiday.
+3.2 An engineer who works more than 4 hours during an on-call incident
+    outside working hours may take compensatory time off of half a day
+    within the next 10 working days, with manager approval.
+3.3 NovaTech does not operate a general paid-overtime scheme for
+    salaried employees. Sustained work beyond 45 hours a week must be
+    raised by the manager to the Department Head.
+
+--------------------------------------------------------------------
+PART 4 - FIXED PUBLIC HOLIDAYS 2026
+--------------------------------------------------------------------
+There are 10 fixed holidays. Offices are closed and no work is
+expected, except for employees rostered on-call.
+
+  1.  Thursday    01 January 2026   New Year's Day
+  2.  Monday      26 January 2026   Republic Day
+  3.  Wednesday   04 March 2026     Holi
+  4.  Friday      03 April 2026     Good Friday
+  5.  Friday      01 May 2026       Labour Day
+  6.  Wednesday   15 July 2026      Founders Day (NovaTech holiday)
+  7.  Saturday    15 August 2026    Independence Day
+  8.  Friday      02 October 2026   Gandhi Jayanti
+  9.  Tuesday     10 November 2026  Diwali
+  10. Friday      25 December 2026  Christmas Day
+
+Note on 15 August 2026: this falls on a Saturday. NovaTech does not
+provide a substitute weekday off for a public holiday falling on a
+weekend. Only 9 of the 10 fixed holidays are therefore working-day
+holidays in 2026.
+
+--------------------------------------------------------------------
+PART 5 - OPTIONAL HOLIDAYS 2026
+--------------------------------------------------------------------
+Each employee may select 2 days from the list below. These are
+separate from Annual Leave and do not reduce the 24-day Annual Leave
+balance described in NT-HR-001.
+
+  - Friday      16 January 2026   Pongal / Makar Sankranti
+  - Thursday    19 March 2026     Ugadi / Gudi Padwa
+  - Monday      30 March 2026     Eid al-Fitr
+  - Tuesday     26 May 2026       Buddha Purnima
+  - Thursday    06 June 2026      Eid al-Adha
+  - Friday      28 August 2026    Onam
+  - Friday      04 September 2026 Janmashtami
+  - Monday      21 September 2026 Ganesh Chaturthi
+  - Tuesday     20 October 2026   Dussehra
+  - Tuesday     24 November 2026  Guru Nanak Jayanti
+
+Rules for Optional Holidays:
+  - Apply on NovaPeople at least 3 working days in advance.
+  - Unused Optional Holidays lapse on 31 December and are not
+    encashed or carried forward.
+  - Optional Holidays cannot be combined to take more than 2 days.
+  - Teams must maintain a minimum of 50 percent coverage on any
+    Optional Holiday date; approval is first-come, first-served in
+    NovaPeople.
+
+--------------------------------------------------------------------
+PART 6 - OFFICE ACCESS AND BUILDING HOURS
+--------------------------------------------------------------------
+Bengaluru (HQ)  : Building open 07:00 to 22:00, Monday to Saturday
+Pune            : Building open 08:00 to 21:00, Monday to Friday
+Hyderabad       : Building open 08:00 to 21:00, Monday to Friday
+
+Access outside these hours, and Sunday access at any site, requires an
+approved Out-of-Hours Access request raised with Facilities at least
+1 business day in advance. Security will not admit employees without
+an approved request, regardless of seniority.
+
+Cafeteria     : 08:30 to 19:00 on working days
+Gym (HQ only) : 06:30 to 21:00 on working days
+Parking       : Allocated by Facilities, not IT
+
+--------------------------------------------------------------------
+PART 7 - QUICK ANSWERS
+--------------------------------------------------------------------
+Q: What are the company's working hours?
+A: 09:30 to 18:30 IST, Monday to Friday, with flexible start between
+   08:00 and 11:00 and mandatory core hours from 11:00 to 16:00.
+
+Q: How many holidays do we get in 2026?
+A: 10 fixed public holidays plus 2 Optional Holidays of your choice.
+   One fixed holiday (15 August) falls on a Saturday and is not
+   substituted.
+
+Q: Are Saturdays working days?
+A: No. Monday to Friday only. The Bengaluru building is open on
+   Saturday for employees who choose to come in, but it is not a
+   working day and no attendance is expected.
+
+Q: Do working hours change when I work from home?
+A: No. The same hours and the same core hours apply. What changes is
+   how attendance is recorded. See NT-HR-002 and NT-HR-003.
+
+Q: Is a public holiday deducted from my leave balance?
+A: No. Public holidays and Optional Holidays are separate from the
+   24 days of Annual Leave.
+
+--------------------------------------------------------------------
+PART 8 - CONTACTS
+--------------------------------------------------------------------
+Holiday calendar questions   : people@novatech.example (ext. 2100)
+Shift rosters and allowances : Your reporting manager, then HRBP
+Out-of-hours office access   : facilities@novatech.example (ext. 2200)
+On-call allowance queries    : payroll@novatech.example (ext. 3310)
+Attendance corrections       : attendance@novatech.example (ext. 2115)

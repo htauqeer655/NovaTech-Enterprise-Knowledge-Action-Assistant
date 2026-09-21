@@ -1,0 +1,139 @@
+NOVATECH SOLUTIONS PRIVATE LIMITED
+INTERNAL POLICY DOCUMENT
+
+Document ID    : NT-HR-003
+Title          : Attendance, Punctuality and Regularisation Policy
+Department     : Human Resources
+Version        : 4.0
+Effective Date : 01 January 2026
+Owner          : People Operations - Attendance Cell
+Review Cycle   : Annual
+
+--------------------------------------------------------------------
+PART A - HOW ATTENDANCE IS RECORDED
+--------------------------------------------------------------------
+A.1  In the office
+     Attendance is captured by the access-card reader at the building
+     turnstile. Employees must swipe IN on arrival and swipe OUT on
+     departure. Swipe data syncs to NovaPeople every 30 minutes.
+
+A.2  Working from home
+     On an approved WFH day, the employee must click "Start Day" and
+     "End Day" in the NovaPeople Attendance tab. A WFH day with no
+     Start Day entry is recorded as Absent, even if the WFH request
+     itself was approved.
+
+A.3  Client site or off-site
+     Employees working at a client location must select
+     "Attendance > Off-site" in NovaPeople and enter the client name.
+     This requires manager confirmation within 5 working days.
+
+A.4  What counts as a present day
+     A day is marked Present when total recorded hours are 8 hours or
+     more, or when the employee has an approved leave, holiday or
+     approved WFH record for that date.
+
+--------------------------------------------------------------------
+PART B - EXPECTED HOURS
+--------------------------------------------------------------------
+Standard working day  : 8 hours of work + 1 hour break
+Standard window       : 09:30 to 18:30 IST
+Flexible start        : any time between 08:00 and 11:00
+Core hours            : 11:00 to 16:00 IST - attendance is mandatory
+Weekly average        : 40 hours across Monday to Friday
+
+Full details of shifts, flexible timing and the holiday calendar are
+in NT-GEN-001 (Working Hours and Holidays). This document covers only
+the recording and correction of attendance.
+
+--------------------------------------------------------------------
+PART C - LATE MARKS
+--------------------------------------------------------------------
+C.1  A Late Mark is applied when the first swipe-in (or Start Day
+     click) is after 11:00 AM and no prior intimation was given to the
+     reporting manager.
+
+C.2  3 Late Marks in a calendar month result in a deduction of one
+     half-day of Annual Leave.
+
+C.3  6 Late Marks in a calendar month trigger a documented
+     conversation with the reporting manager and a note to the HR
+     Business Partner.
+
+C.4  Late Marks reset to zero on the 1st of each month.
+
+C.5  A Late Mark is not applied if the employee informs the manager
+     before 11:00 AM, if the employee is on an approved client visit,
+     or if the delay is due to a company-arranged cab that was late
+     (transport ticket number required).
+
+--------------------------------------------------------------------
+PART D - MISSED PUNCH AND REGULARISATION
+--------------------------------------------------------------------
+This section answers the common question: "What happens if I forget to
+mark my attendance?"
+
+D.1  A missed punch is any day with a missing swipe-in, a missing
+     swipe-out, or a missing Start Day / End Day entry on a WFH day.
+
+D.2  Nothing is deducted immediately. The day appears in NovaPeople
+     as "Attendance Exception" and must be regularised.
+
+D.3  To regularise:
+       1. Open NovaPeople > Attendance > My Exceptions
+       2. Select the date showing the exception
+       3. Choose a reason: Forgot to Swipe / Card Not Working /
+          System Error / Off-site Work / Other
+       4. Enter the actual in and out times
+       5. Submit for manager approval
+
+D.4  Deadline: regularisation must be submitted within 5 working days
+     of the exception date. After 5 working days the NovaPeople form
+     locks and the day is converted to Loss of Pay.
+
+D.5  Limit: a maximum of 3 regularisations are allowed per calendar
+     month. The 4th and subsequent requests in the same month require
+     HR Business Partner approval in addition to manager approval.
+
+D.6  If the form has already locked, email
+     attendance@novatech.example with the date, the reason and your
+     manager in copy. The Attendance Cell may reopen a locked entry
+     once per quarter per employee, at its discretion.
+
+D.7  If the access card itself is faulty, raise an IT ticket on
+     NovaDesk (category: Access Card) to get it replaced. The ticket
+     number should be quoted in the regularisation reason. Card
+     replacement is handled by IT, not by HR. See NT-IT-004
+     (IT Support and Helpdesk).
+
+--------------------------------------------------------------------
+PART E - ABSENCE WITHOUT INFORMATION
+--------------------------------------------------------------------
+E.1  An absence with no leave request and no intimation is recorded as
+     Unauthorised Absence and is Loss of Pay for that day.
+
+E.2  2 consecutive Unauthorised Absences trigger an automated email
+     to the employee and the reporting manager.
+
+E.3  5 consecutive Unauthorised Absences with no contact are treated
+     as abandonment of employment and are referred to the HR Business
+     Partner for formal action.
+
+--------------------------------------------------------------------
+PART F - MONTHLY CYCLE
+--------------------------------------------------------------------
+Attendance month runs from the 21st of one month to the 20th of the
+next. The attendance register freezes at 23:59 on the 20th and is sent
+to Payroll on the 21st. Any correction after the freeze can only be
+adjusted in the following month's payroll.
+
+--------------------------------------------------------------------
+PART G - CONTACTS
+--------------------------------------------------------------------
+Regularisation help / locked forms : attendance@novatech.example
+                                     (ext. 2115)
+Access card not working            : helpdesk@novatech.example
+                                     (ext. 4444)
+Late mark disputes                 : Your reporting manager, then HRBP
+Payroll deduction queries          : payroll@novatech.example
+                                     (ext. 3310)

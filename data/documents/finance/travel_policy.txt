@@ -1,0 +1,201 @@
+NOVATECH SOLUTIONS PRIVATE LIMITED
+INTERNAL POLICY DOCUMENT
+
+Document ID    : NT-FIN-002
+Title          : Business Travel Policy
+Department     : Finance - Financial Operations (with Travel Desk)
+Version        : 4.1
+Effective Date : 01 April 2026
+Owner          : Rohit Desai, Controller
+Travel Partner : NovaTrip Desk, managed by an external agency
+
+--------------------------------------------------------------------
+1. WHEN THIS POLICY APPLIES
+--------------------------------------------------------------------
+This policy applies from the moment you leave your base city on
+approved business until you return. Expenses incurred inside your base
+city, including local client meals and local cabs, are covered by
+NT-FIN-001 (Business Expense Policy) with different limits.
+
+Base city is the city recorded in NovaPeople as your work location:
+Bengaluru, Pune or Hyderabad. Fully remote employees have their
+registered home city recorded as base city.
+
+--------------------------------------------------------------------
+2. APPROVAL BEFORE YOU BOOK
+--------------------------------------------------------------------
+2.1 Every trip begins with a Travel Request Form (TRF) in NovaSpend
+    (Travel > New Travel Request). No TRF, no booking, no
+    reimbursement.
+
+2.2 Advance notice
+      Domestic travel      : TRF at least 10 business days before
+                             departure
+      International travel : TRF at least 21 business days before
+                             departure
+    Late TRFs are accepted only with Department Head approval and may
+    result in higher fares being charged to the team's budget.
+
+2.3 Approval chain
+      Domestic, under INR 50,000 total    : Reporting manager
+      Domestic, INR 50,000 and above      : Manager + Department Head
+      International, any value            : Manager + Department Head
+                                            + Controller
+      Travel to a restricted country      : Additionally, Chief
+                                            Financial Officer
+
+2.4 Once approved, the NovaTrip Desk books flights and hotels. Do not
+    self-book. Self-booked travel is reimbursed only where the
+    NovaTrip Desk confirms in writing that it could not fulfil the
+    booking, or in a documented emergency.
+
+--------------------------------------------------------------------
+3. FLIGHTS AND TRAINS
+--------------------------------------------------------------------
+3.1 Domestic
+    Economy class only, for all grades.
+    Rail is required instead of air where the journey is under 5 hours
+    by train and the fare difference exceeds INR 3,000. Rail class:
+    AC 2-Tier, or AC Chair Car for day journeys.
+    Book the lowest logical fare within a 2-hour window of the
+    requested departure time.
+
+3.2 International
+    Economy class for flights with a total flying time up to 8 hours.
+    Premium economy is permitted for flights over 8 hours for grade L5
+    and above.
+    Business class requires Chief Financial Officer approval and is
+    granted only for flights over 12 hours for grade L7 and above.
+
+3.3 Changes and cancellations
+    Change fees are reimbursable where the change is business-driven.
+    Change fees for personal reasons are borne by the employee.
+    Cancellation must be notified to the NovaTrip Desk as soon as the
+    trip is called off; no-show charges are recovered from the
+    employee's team budget.
+
+3.4 Airline loyalty points earned on business travel may be retained
+    by the employee. Points must never influence the choice of carrier.
+
+--------------------------------------------------------------------
+4. ACCOMMODATION
+--------------------------------------------------------------------
+Nightly room limits, inclusive of taxes:
+    Tier 1 cities (Mumbai, Delhi NCR, Bengaluru,
+    Hyderabad, Chennai, Pune, Kolkata)      INR 6,000
+    Tier 2 and other Indian cities          INR 4,000
+    International - Band A (USA, UK, EU,
+    Singapore, Japan, Australia)            USD 180
+    International - Band B (all others)     USD 110
+
+Breakfast included in the room rate is preferred and does not count
+against the per diem. Room service, mini-bar, laundry under 3 nights,
+paid movies and spa charges are not reimbursable.
+
+Where an employee stays with family or friends instead of a hotel, a
+flat "stay-with-family" allowance of INR 1,000 per night is payable,
+with no receipt required, up to 7 nights per trip.
+
+--------------------------------------------------------------------
+5. MEALS AND PER DIEM WHILE TRAVELLING
+--------------------------------------------------------------------
+5.1 Your own meals while travelling are covered by a per diem. You do
+    not submit individual meal bills for yourself.
+      Domestic per diem             : INR 1,800 per day
+      International Band A per diem : USD 75 per day
+      International Band B per diem : USD 50 per day
+
+5.2 Partial days
+      Departure or return day with more than 8 hours of travel: full
+      per diem.
+      Less than 8 hours: 50 percent of the per diem.
+      A day with no overnight stay away from base city: no per diem.
+      Use the local expense limits in NT-FIN-001 instead.
+
+5.3 If the company or a client pays for a meal, deduct from that day's
+    per diem: breakfast 15 percent, lunch 35 percent, dinner 50 percent.
+
+5.4 Hosting a client while travelling is NOT part of the per diem. It
+    is claimed separately as a Client Meal - Travel, with a limit of
+    INR 1,500 per person domestic, or USD 60 per person international.
+    Attendee names and an itemised bill are mandatory.
+    Note: the equivalent limit for a client meal in your own city is
+    INR 800 per person (NT-FIN-001, Section 2.1). The two limits are
+    different on purpose; use the one that matches where you were.
+
+5.5 Alcohol is not reimbursable on per diem or on client meals, other
+    than at a formal client dinner explicitly pre-approved by a
+    Department Head, capped at INR 1,000 per attendee.
+
+--------------------------------------------------------------------
+6. GROUND TRANSPORT ON TRIP
+--------------------------------------------------------------------
+Airport transfers: app-based cab or airport taxi, actuals.
+City travel at destination: actuals, up to INR 2,000 per day.
+Car rental: permitted only where public transport and cabs are
+impractical, with manager approval in the TRF.
+Personal vehicle used for business travel: INR 12 per kilometre, with
+a log of date, route and distance. Fuel bills are not claimed
+separately when mileage is claimed.
+Parking and tolls on business trips: actuals, receipts required.
+
+--------------------------------------------------------------------
+7. VISAS, INSURANCE AND HEALTH
+--------------------------------------------------------------------
+7.1 Visa fees, visa service charges, passport renewal where required
+    for a business trip, and mandatory vaccinations are reimbursed at
+    actuals with receipts.
+7.2 NovaTech provides travel insurance for all approved business
+    travel. The policy number and emergency assistance number are
+    issued with the TRF approval. Employees must not purchase separate
+    travel insurance; such claims are rejected.
+7.3 Medical expenses abroad during business travel are handled by the
+    travel insurer, not through NovaSpend.
+
+--------------------------------------------------------------------
+8. WORKING WHILE TRAVELLING
+--------------------------------------------------------------------
+8.1 A business travel day is a working day. It is not WFH and does not
+    consume your monthly WFH allowance under NT-HR-002.
+8.2 Mark attendance in NovaPeople as "Off-site" with the destination
+    (NT-HR-003, Part A.3).
+8.3 International travel requires a temporary VPN geo-unblock
+    requested at least 3 business days before departure per NT-IT-003,
+    Section 6.2. Request this at the same time as your TRF; travel
+    approval does not automatically grant VPN access.
+8.4 Working from another location for personal reasons is Work From
+    Anywhere, not business travel, and is governed by NT-HR-002,
+    Section 6.2. WFA is unpaid in terms of expenses: no per diem, no
+    accommodation, no transport.
+
+--------------------------------------------------------------------
+9. HOW TO SUBMIT A TRAVEL EXPENSE
+--------------------------------------------------------------------
+Step 1 : Open NovaSpend > Travel > My Trips and select the trip.
+Step 2 : Click "Create Expense Report from TRF". The trip details,
+         approval chain and cost centre are pre-filled.
+Step 3 : Add each expense line, choosing the category (Airfare, Hotel,
+         Per Diem, Ground Transport, Client Meal - Travel, Visa,
+         Other).
+Step 4 : For Per Diem, enter the number of full and partial days.
+         NovaSpend calculates the amount. No receipts are needed for
+         per diem.
+Step 5 : Attach receipts for every other line item above INR 500.
+Step 6 : Submit. The report routes to your manager, then to Finance.
+Step 7 : Track status under NovaSpend > My Claims.
+
+The submission deadline, receipt rules, payment cycle and rejection
+handling are defined in NT-FIN-003 (Reimbursement Policy) and apply to
+travel claims exactly as they do to any other claim.
+
+--------------------------------------------------------------------
+10. CONTACTS
+--------------------------------------------------------------------
+Bookings, changes, cancellations : traveldesk@novatech.example
+                                   (ext. 3350)
+Emergency while travelling       : +91 80 4000 3399 (24x7)
+Policy limits and exceptions     : finance-ops@novatech.example
+                                   (ext. 3300)
+Visa documentation support       : traveldesk@novatech.example
+VPN access while abroad          : helpdesk@novatech.example
+                                   (ext. 4444)

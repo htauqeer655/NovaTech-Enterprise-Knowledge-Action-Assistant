@@ -1,0 +1,15 @@
+.env
+.env.*
+.venv
+.venv312
+__pycache__/
+*.pyc
+
+data/novatech.db
+.pytest_cache/
+.gradio/
+.vscode/
+.idea/
+data/chroma_db/
+data/vector_store/
+*.log

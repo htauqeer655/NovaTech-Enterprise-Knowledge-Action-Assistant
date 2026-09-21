@@ -1,0 +1,157 @@
+NOVATECH SOLUTIONS PRIVATE LIMITED
+INTERNAL POLICY DOCUMENT
+
+Document ID    : NT-FIN-001
+Title          : Business Expense Policy (Non-Travel)
+Department     : Finance - Financial Operations
+Version        : 3.5
+Effective Date : 01 April 2026
+Owner          : Rohit Desai, Controller
+Currency       : All limits in Indian Rupees (INR) unless stated
+
+IMPORTANT SCOPE NOTE
+This policy covers day-to-day business expenses incurred while working
+from your usual city. Expenses incurred while on an approved business
+TRIP away from your base city are covered by NT-FIN-002 (Travel
+Policy), which has different and higher limits. The process for
+submitting and getting paid for any claim is in NT-FIN-003
+(Reimbursement Policy).
+
+--------------------------------------------------------------------
+SECTION 1 - PRINCIPLES
+--------------------------------------------------------------------
+1. Spend company money as carefully as you would spend your own.
+2. The expense must have a clear business purpose.
+3. The cheapest reasonable option should be chosen.
+4. If you would be uncomfortable explaining the expense in an
+   all-hands meeting, do not incur it.
+
+--------------------------------------------------------------------
+SECTION 2 - CATEGORY LIMITS
+--------------------------------------------------------------------
+2.1 Client meals (in your base city)
+    Limit: INR 800 per person per meal.
+    Requires: names and companies of all attendees recorded in the
+    claim. An itemised bill is mandatory. A card slip alone is not
+    acceptable.
+    Alcohol: not reimbursable in any local client meal.
+
+2.2 Internal team meals
+    Limit: INR 1,200 per person per occasion.
+    Frequency: maximum one team meal per team per quarter.
+    Approval: the team's manager, in advance, in writing.
+    Team meals above 15 attendees require Director approval.
+
+2.3 Local transport for business
+    Limit: INR 1,500 per day total.
+    Covers cabs and auto fares for client visits, inter-office travel
+    and late-night departures after 21:30.
+    Not covered: your normal daily commute between home and office.
+    The commute is never reimbursable.
+
+2.4 Mobile and phone
+    Grades L1 to L3 : INR 700 per month
+    Grades L4 to L5 : INR 1,500 per month
+    Grade L6 and above / Field Sales : INR 2,500 per month
+    Submit one claim per month with the operator bill in your name.
+
+2.5 Professional membership and certification
+    Limit: INR 30,000 per employee per calendar year. This is the same
+    pool as the learning budget in NT-HR-004 and is not additional.
+    Requires manager approval before the purchase. Confirmed employees
+    only.
+
+2.6 Client gifts
+    Limit: INR 2,500 per recipient per year.
+    Requires Director approval in advance, without exception.
+    Cash, vouchers convertible to cash, and gifts to government
+    officials are prohibited entirely.
+
+2.7 Office supplies and small equipment
+    Limit: INR 3,000 per claim.
+    Anything IT-related (keyboards, mice, hubs, headsets, monitors,
+    software licences) must be requested through NovaDesk instead, and
+    will NOT be reimbursed as an expense. See NT-IT-001, Section 1.
+
+2.8 Home internet
+    Not claimable. Covered by the fixed monthly allowance of
+    INR 1,200 paid with salary under NT-HR-002, Section 7.
+
+--------------------------------------------------------------------
+SECTION 3 - PRE-APPROVAL
+--------------------------------------------------------------------
+Pre-approval on NovaSpend is required before incurring:
+  - Any single expense over INR 10,000
+  - Any client gift
+  - Any team meal
+  - Any professional certification or membership
+  - Any expense in a category not listed in Section 2
+
+Pre-approval is a separate NovaSpend workflow (Expenses >
+Pre-Approval Request) and must be raised at least 3 business days in
+advance. An expense over INR 10,000 submitted without a pre-approval
+number will be rejected regardless of merit.
+
+Approval authority:
+  Up to INR 10,000        Reporting manager
+  INR 10,001 to 50,000    Reporting manager + Department Head
+  INR 50,001 to 200,000   Department Head + Controller
+  Above INR 200,000       Chief Financial Officer
+
+--------------------------------------------------------------------
+SECTION 4 - MEAL LIMITS: LOCAL VERSUS TRAVEL
+--------------------------------------------------------------------
+This distinction causes the most claim rejections, so it is stated
+explicitly.
+
+If you are working in your base city and take a client to lunch, the
+limit is INR 800 per person and you claim it as a Client Meal under
+this policy.
+
+If you are on an approved business trip outside your base city, your
+own meals are covered by a per diem of INR 1,800 per day (domestic)
+and you do NOT claim them per meal. A client meal hosted while
+travelling is claimed separately at the travel limit. See NT-FIN-002,
+Section 5.
+
+You cannot claim both a per diem and individual meal bills for the
+same day.
+
+--------------------------------------------------------------------
+SECTION 5 - NON-REIMBURSABLE EXPENSES
+--------------------------------------------------------------------
+The following are never reimbursed:
+  - Daily home-to-office commute
+  - Traffic fines, parking fines and licence penalties
+  - Personal entertainment, spa, gym memberships
+  - Laptop or device repairs (paid centrally by IT, NT-IT-001 Sec 6.4)
+  - Home internet bills (fixed allowance instead)
+  - Personal software subscriptions
+  - Alcohol at local client meals
+  - Expenses of a spouse, partner or family member
+  - Any expense already paid on a company corporate card
+
+--------------------------------------------------------------------
+SECTION 6 - CORPORATE CARD
+--------------------------------------------------------------------
+Corporate cards are issued to employees at grade L4 and above with
+Department Head approval. Card transactions must be reconciled in
+NovaSpend within 15 calendar days of the statement date. Unreconciled
+transactions after 45 days are recovered from salary. A card is not a
+substitute for pre-approval; the same Section 3 thresholds apply.
+
+--------------------------------------------------------------------
+SECTION 7 - POLICY VIOLATIONS
+--------------------------------------------------------------------
+First occurrence   : claim rejected, employee counselled by manager
+Second occurrence  : claim rejected, formal note to HR Business Partner
+Deliberate false claim : treated as misconduct and referred to HR
+                         regardless of value
+
+--------------------------------------------------------------------
+SECTION 8 - CONTACTS
+--------------------------------------------------------------------
+Policy questions and limits : finance-ops@novatech.example (ext. 3300)
+Pre-approval workflow help  : novaspend-help@novatech.example
+Corporate card              : cards@novatech.example (ext. 3320)
+Claim status and payment    : See NT-FIN-003 (Reimbursement Policy)

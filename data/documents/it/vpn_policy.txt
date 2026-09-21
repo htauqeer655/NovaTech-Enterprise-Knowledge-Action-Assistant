@@ -1,0 +1,152 @@
+NOVATECH SOLUTIONS PRIVATE LIMITED
+INTERNAL POLICY DOCUMENT
+
+Document ID    : NT-IT-003
+Title          : Remote Network Access and VPN Policy
+Department     : Information Technology - Network Services
+Version        : 3.3
+Effective Date : 01 March 2026
+Owner          : Network Services Team
+Classification : Internal Use Only
+
+--------------------------------------------------------------------
+1. WHAT THE VPN IS FOR
+--------------------------------------------------------------------
+NovaConnect VPN provides an encrypted tunnel from a NovaTech laptop to
+the NovaTech internal network. It is required whenever you are outside
+a NovaTech office and need to reach an internal system.
+
+You NEED the VPN for:
+  - NovaPeople HR portal (people.novatech.internal)
+  - NovaDesk IT helpdesk (helpdesk.novatech.internal)
+  - NovaSpend expense portal (spend.novatech.internal)
+  - Internal Git servers, Jenkins, staging and production environments
+  - Internal wikis, file shares and databases
+  - Anything with a .internal address
+
+You do NOT need the VPN for:
+  - NovaTech email and calendar
+  - NovaChat messaging
+  - Video conferencing
+  - Any SaaS tool reached through NovaID single sign-on
+Connecting to the VPN for these services only slows them down. Do not
+leave the VPN connected all day out of habit.
+
+Inside a NovaTech office, on the NovaCorp Wi-Fi or a wired port, the
+VPN is not required and will refuse to connect.
+
+--------------------------------------------------------------------
+2. HOW TO CONNECT
+--------------------------------------------------------------------
+Client   : NovaConnect Client, version 4.2 or later
+Gateway  : vpn.novatech.internal
+Available from the Software Catalog (Company Portal icon). It is
+pre-installed on all laptops issued after January 2025.
+
+Connection steps:
+  1. Make sure you are on a working internet connection.
+  2. Open the NovaConnect Client from the system tray or menu bar.
+  3. Confirm the gateway shows vpn.novatech.internal. Select the
+     nearest region: IN-South (Bengaluru), IN-West (Pune) or
+     IN-Central (Hyderabad).
+  4. Click Connect.
+  5. Enter your NovaID username and password (see NT-IT-002).
+  6. Approve the push notification in the NovaAuth app. You have 60
+     seconds before the request expires.
+  7. The tray icon turns green when connected.
+
+--------------------------------------------------------------------
+3. SESSION RULES
+--------------------------------------------------------------------
+Maximum session length   : 12 hours, then re-authentication required
+Idle disconnect          : 30 minutes with no traffic
+Concurrent sessions      : 1 per user. A second connection disconnects
+                           the first.
+Tunnel mode              : Split tunnel. Internal traffic goes through
+                           the tunnel; general internet traffic goes
+                           out through your own connection.
+Bandwidth                : Streaming video and large personal
+                           downloads over the tunnel are throttled.
+
+--------------------------------------------------------------------
+4. COMMON CONNECTION PROBLEMS
+--------------------------------------------------------------------
+"Authentication failed"
+    Almost always a password issue, not a VPN issue. Confirm you can
+    sign in at id.novatech.internal. If your password recently expired,
+    reset it first per NT-IT-002 Section 5.
+
+"MFA timeout"
+    The NovaAuth push expired. Click Connect again and approve within
+    60 seconds. If no push arrives, open NovaAuth manually and use the
+    6-digit code option.
+
+"Gateway unreachable"
+    Try a different region in the client. If all three regions fail,
+    check whether your home internet is working, then raise a NovaDesk
+    ticket. Widespread outages are posted on status.novatech.example.
+
+"Connected but internal sites do not load"
+    Flush DNS and reconnect. On Windows: ipconfig /flushdns. On macOS:
+    sudo killall -HUP mDNSResponder. If still failing, this is a P2
+    ticket on NovaDesk.
+
+"VPN disconnects every few minutes"
+    Usually unstable home Wi-Fi. Move closer to the router or use a
+    wired connection. NT-HR-002 requires a minimum of 25 Mbps for WFH.
+
+Escalation paths and response times for all of these are defined in
+NT-IT-004 (IT Support and Helpdesk Policy). This document does not
+define SLAs.
+
+--------------------------------------------------------------------
+5. SECURITY CONDITIONS
+--------------------------------------------------------------------
+5.1 The VPN may only be used from a NovaTech-issued laptop.
+5.2 Do not connect from a shared or public computer under any
+    circumstances.
+5.3 Public Wi-Fi (airport, cafe, hotel) is permitted only with the VPN
+    connected before any work application is opened.
+5.4 Do not share your screen showing internal systems in a personal or
+    non-NovaTech meeting.
+5.5 All VPN sessions are logged: username, timestamp, source IP,
+    duration and destination systems. Logs are retained for 180 days
+    and reviewed by Information Security.
+5.6 Attempting to bypass the VPN by tunnelling, proxying or exposing
+    internal services to the public internet is a serious policy
+    violation and is referred to Information Security and HR.
+
+--------------------------------------------------------------------
+6. TRAVEL AND LOCATION RESTRICTIONS
+--------------------------------------------------------------------
+6.1 VPN access is geo-restricted to India by default.
+6.2 Employees travelling abroad on business must request temporary
+    geo-unblocking at least 3 business days before departure, through
+    NovaDesk (category: Network > International VPN Access). The
+    request must include destination country, travel dates and the
+    approving manager. Approval is granted for the travel dates only
+    and expires automatically.
+6.3 Personal international travel does not qualify for geo-unblocking.
+    NovaTech does not permit working from outside India (see NT-HR-002
+    Section 6.2).
+6.4 VPN access from certain countries is blocked by policy regardless
+    of approval. The current list is published on the Information
+    Security wiki.
+
+--------------------------------------------------------------------
+7. PERSONAL DEVICE ACCESS - NOVAPORTAL
+--------------------------------------------------------------------
+Where an employee genuinely needs access from a personal device (for
+example, while awaiting a laptop replacement), the NovaPortal virtual
+desktop is the only approved route. NovaPortal runs in a browser at
+portal.novatech.example, requires NovaID plus MFA, and allows no
+copy-paste, printing or file download to the local machine. Access is
+granted in 7-day blocks by manager request on NovaDesk.
+
+--------------------------------------------------------------------
+8. CONTACTS
+--------------------------------------------------------------------
+VPN not connecting        : helpdesk@novatech.example (ext. 4444)
+International access      : NovaDesk, Network > International VPN
+Suspected VPN misuse      : itsecurity@novatech.example (ext. 4477)
+Network status            : status.novatech.example

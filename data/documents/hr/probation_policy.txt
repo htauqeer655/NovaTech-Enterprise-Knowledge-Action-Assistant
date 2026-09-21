@@ -1,0 +1,126 @@
+NOVATECH SOLUTIONS PRIVATE LIMITED
+INTERNAL POLICY DOCUMENT
+
+Document ID    : NT-HR-004
+Title          : Probation and Confirmation Policy
+Department     : Human Resources
+Version        : 2.1
+Effective Date : 01 January 2026
+Owner          : Talent Management, People Operations
+
+--------------------------------------------------------------------
+1. SCOPE AND DURATION
+--------------------------------------------------------------------
+1.1 All new employees of NovaTech Solutions serve a probation period
+    of 6 months from the date of joining.
+
+1.2 Probation may be extended ONCE, by a maximum of 3 months. An
+    extension must be recommended by the reporting manager with written
+    reasons and approved by the HR Business Partner at least 15 days
+    before the original probation end date.
+
+1.3 Employees rejoining NovaTech within 12 months of a previous exit
+    serve a reduced probation of 3 months.
+
+1.4 Internal transfers between teams do not restart probation.
+
+--------------------------------------------------------------------
+2. THE CONFIRMATION PROCESS
+--------------------------------------------------------------------
+Stage 1 - Day 30 check-in
+    Informal conversation between the employee and the reporting
+    manager. No form, no rating. Notes optional.
+
+Stage 2 - Day 90 review
+    A formal written review on NovaPeople. The manager records progress
+    against the onboarding goals agreed in the first two weeks. A
+    rating of "Below Expectations" at this stage triggers a mandatory
+    30-day improvement plan.
+
+Stage 3 - Day 150 confirmation recommendation
+    The manager submits one of three recommendations on NovaPeople:
+      (a) Confirm
+      (b) Extend probation by 3 months
+      (c) Do not confirm
+    HR Business Partner reviews and approves within 10 working days.
+
+Stage 4 - Confirmation letter
+    On approval, the confirmation letter is issued through NovaPeople
+    within 5 working days of the probation end date. The letter is the
+    official record; a verbal confirmation from a manager is not
+    sufficient to change entitlements.
+
+If no recommendation is submitted by the probation end date, the
+employee is deemed confirmed automatically on the 7th calendar day
+after the probation end date.
+
+--------------------------------------------------------------------
+3. WHAT CHANGES ON CONFIRMATION
+--------------------------------------------------------------------
+                          During probation        After confirmation
+Annual Leave usable       Max 6 days total        Full 24 days/year
+Sick Leave                12 days (full)          12 days (full)
+WFH allowance             4 days/month, only      8 days/month
+                          after first 60 days
+Work From Anywhere        Not eligible            20 working days/year
+Notice period             15 calendar days        60 calendar days
+Internet allowance        INR 1,200/month         INR 1,200/month
+Referral bonus            Not eligible            Eligible
+Learning budget           Not eligible            INR 30,000/year
+Performance bonus         Pro-rated from          Full eligibility
+                          confirmation date
+Laptop refresh cycle      Standard 36 months      Standard 36 months
+
+--------------------------------------------------------------------
+4. FREQUENTLY ASKED QUESTIONS
+--------------------------------------------------------------------
+Q: Can I work from home during probation?
+A: Yes, but with limits. You cannot work from home during your first
+   60 days. From day 61 until confirmation, you may take up to 4 WFH
+   days per calendar month with manager approval. Anchor days and the
+   monthly All-Hands day still apply. Medical WFH (NT-HR-002 Section
+   6.1) is an exception and is available from day one.
+
+Q: Can I take leave during probation?
+A: Yes. You accrue 2 days of Annual Leave per month like everyone
+   else, but you may use a maximum of 6 of those days before
+   confirmation. Sick Leave is not restricted.
+
+Q: Does my accrued leave disappear if I do not use it during
+   probation?
+A: No. Accrued but unused days remain in your balance and become
+   available to use once you are confirmed.
+
+Q: Can I claim the learning budget during probation?
+A: No. The INR 30,000 annual learning budget starts from the
+   confirmation date and is pro-rated for the remainder of that
+   calendar year.
+
+Q: Can I be sent on business travel during probation?
+A: Yes, if the business requires it. The same travel policy applies
+   (NT-FIN-002). No separate approval tier applies to probationers.
+
+Q: What is my notice period if I resign during probation?
+A: 15 calendar days. After confirmation it becomes 60 calendar days.
+
+Q: Is my probation automatically extended if my manager is on leave?
+A: No. If no recommendation is recorded by the probation end date, you
+   are deemed confirmed on the 7th calendar day afterwards.
+
+--------------------------------------------------------------------
+5. EXIT DURING PROBATION
+--------------------------------------------------------------------
+5.1 Either party may end the employment during probation with 15
+    calendar days notice or payment in lieu.
+5.2 Where employment is ended by NovaTech during probation, the
+    employee receives encashment of accrued unused Annual Leave up to
+    a maximum of 15 days, per NT-HR-001 Section 7.
+5.3 All company assets must be returned on or before the last working
+    day as per NT-IT-001 (Laptop and Device Policy), Section 8.
+
+--------------------------------------------------------------------
+6. CONTACTS
+--------------------------------------------------------------------
+Confirmation status / letters : people@novatech.example (ext. 2100)
+Probation extension queries   : Your HR Business Partner
+Improvement plan support      : talent@novatech.example (ext. 2130)

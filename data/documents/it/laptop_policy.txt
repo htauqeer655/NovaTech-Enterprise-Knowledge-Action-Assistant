@@ -1,0 +1,167 @@
+NOVATECH SOLUTIONS PRIVATE LIMITED
+INTERNAL POLICY DOCUMENT
+
+Document ID    : NT-IT-001
+Title          : Laptop, Device and Software Usage Policy
+Department     : Information Technology
+Version        : 5.1
+Effective Date : 15 March 2026
+Owner          : Arjun Menon, Director of IT Infrastructure
+Classification : Internal Use Only
+
+This document covers what device you are issued, what you may install
+on it, and what happens if it is lost or damaged. If your laptop has
+simply stopped working and you need it fixed, raise a ticket as
+described in NT-IT-004 (IT Support and Helpdesk Policy).
+
+--------------------------------------------------------------------
+1. STANDARD DEVICE ALLOCATION
+--------------------------------------------------------------------
+Role family                 Standard issue
+Business / Operations / HR  NovaBook 14 (16 GB RAM, 512 GB SSD)
+Engineering / Data          NovaBook Pro 16 (32 GB RAM, 1 TB SSD)
+Design                      NovaBook Pro 16 + colour-calibrated
+                            external display
+Field Sales                 NovaBook 14 + 4G data SIM
+
+Every employee receives exactly one primary laptop. A second device is
+issued only with Director-level approval and a documented business
+reason (for example, a build machine or a device-testing role).
+
+Accessories issued by default: power adapter, laptop bag, USB-C hub,
+wired headset. Additional accessories (external monitor, keyboard,
+mouse, docking station) are available on request through NovaDesk and
+require manager approval.
+
+--------------------------------------------------------------------
+2. REFRESH CYCLE
+--------------------------------------------------------------------
+Laptops are refreshed every 36 months from the asset issue date. IT
+raises the replacement automatically 30 days before the due date.
+Early replacement is considered only where:
+  - the device has had 3 or more hardware failures in 12 months, or
+  - a documented performance requirement cannot be met by the current
+    specification, approved by the Director of IT Infrastructure.
+
+Devices returned at refresh are wiped and either redeployed as loaner
+units or disposed of through a certified e-waste vendor.
+
+--------------------------------------------------------------------
+3. SOFTWARE INSTALLATION
+--------------------------------------------------------------------
+3.1 Employees do NOT have local administrator rights by default.
+
+3.2 Approved software is installed from the NovaTech Software Catalog,
+    available from the Company Portal icon on your desktop. Catalog
+    installs are self-service and need no approval.
+
+3.3 Software that is not in the Catalog requires a Software Request on
+    NovaDesk (category: Software > New Request). The request must
+    include the software name, version, vendor, business justification
+    and licensing model. IT Security completes its review within 5
+    business days.
+
+3.4 Temporary administrator access may be granted for a fixed 72-hour
+    window through NovaDesk (category: Access > Temporary Elevation),
+    with manager approval. Elevation is logged and automatically
+    revoked at the end of the window.
+
+3.5 Prohibited at all times, with no exception process:
+      - Cracked, pirated or unlicensed software
+      - Torrent and peer-to-peer file sharing clients
+      - Cryptocurrency mining software
+      - Unapproved remote-access tools
+      - Personal cloud sync clients (personal Google Drive, Dropbox,
+        OneDrive) signed in with a personal account
+      - Browser extensions that read page content, unless listed in
+        the Catalog
+
+3.6 Open-source libraries pulled into project code are governed by the
+    Engineering Dependency Policy (NT-IT-009), not by this section.
+
+--------------------------------------------------------------------
+4. SECURITY REQUIREMENTS
+--------------------------------------------------------------------
+4.1 Full-disk encryption is enabled on all laptops and must not be
+    disabled.
+4.2 The screen must lock automatically after 10 minutes of inactivity.
+4.3 The NovaShield endpoint agent must remain running. Tickets
+    reporting that "NovaShield is slowing my machine" should go to
+    NovaDesk; the agent must not be uninstalled.
+4.4 Operating system updates must be applied within 14 days of
+    release. Devices more than 30 days behind are blocked from the
+    corporate network automatically.
+4.5 Company data must not be copied to personal USB drives. USB mass
+    storage is blocked by default; an exception can be requested for a
+    30-day period with Director approval.
+4.6 Sign-in credentials for the device follow NT-IT-002 (Password
+    Policy).
+
+--------------------------------------------------------------------
+5. PERSONAL USE
+--------------------------------------------------------------------
+Reasonable personal use is permitted: personal email in a browser,
+news, music streaming, online shopping in breaks. Employees should
+have no expectation of privacy for anything stored on or transmitted
+through a NovaTech device.
+
+Personal devices must never be used to access internal NovaTech
+systems. Employees needing access from a personal device should use
+the NovaPortal virtual desktop described in NT-IT-003 (VPN Policy),
+Section 7.
+
+--------------------------------------------------------------------
+6. DAMAGE, LOSS AND THEFT
+--------------------------------------------------------------------
+6.1 Accidental damage
+    First accidental damage incident in a 24-month period: fully
+    covered by NovaTech, no employee contribution.
+    Second incident in the same 24-month period: employee contributes
+    INR 5,000 toward repair or replacement, deducted from salary with
+    written consent.
+    Third and subsequent incidents: reviewed case by case by the IT
+    Asset Committee with the HR Business Partner.
+
+6.2 Negligence
+    Damage caused by demonstrable negligence (liquid spill on an
+    unattended device at a non-work location, device left in a vehicle)
+    is treated as a second incident from the outset.
+
+6.3 Loss or theft
+    Report immediately to the IT Service Desk on ext. 4444 and to
+    itsecurity@novatech.example. IT will remotely lock and wipe the
+    device. A police complaint (FIR) must be filed and a copy uploaded
+    to the NovaDesk ticket within 48 hours. Replacement is issued
+    within 3 business days of the FIR copy being received.
+
+6.4 Do not submit laptop repair costs as an expense claim. Hardware
+    repairs are paid centrally by IT. Expense claims for laptop repair
+    will be rejected by Finance (see NT-FIN-001, Section 5).
+
+--------------------------------------------------------------------
+7. LOANER DEVICES
+--------------------------------------------------------------------
+A loaner laptop can be collected from the IT Bar at any NovaTech
+office. Loaners are issued for a maximum of 10 working days. Extension
+requires a NovaDesk ticket update. Loaner devices carry the standard
+image and do not have local admin rights under any circumstances.
+
+--------------------------------------------------------------------
+8. RETURN OF ASSETS
+--------------------------------------------------------------------
+All IT assets must be returned to the IT Bar on or before the last
+working day, including the laptop, adapter, bag, hub, headset, access
+card and any accessories. An Asset Clearance record is generated in
+NovaDesk and is a mandatory input to the final settlement processed by
+Payroll. Unreturned assets are recovered at book value from the final
+settlement.
+
+--------------------------------------------------------------------
+9. CONTACTS
+--------------------------------------------------------------------
+Device requests and accessories : NovaDesk (helpdesk.novatech.internal)
+Laptop not working / repairs    : helpdesk@novatech.example (ext. 4444)
+Software approvals              : itsecurity@novatech.example
+Lost or stolen device           : ext. 4444 immediately, then
+                                  itsecurity@novatech.example
+Asset clearance on exit         : itassets@novatech.example (ext. 4410)

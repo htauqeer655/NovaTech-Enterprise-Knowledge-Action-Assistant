@@ -1,0 +1,146 @@
+NOVATECH SOLUTIONS PRIVATE LIMITED
+INTERNAL POLICY DOCUMENT
+
+Document ID    : NT-HR-002
+Title          : Work From Home and Hybrid Working Policy
+Department     : Human Resources
+Version        : 2.4
+Effective Date : 01 February 2026
+Owner          : Priya Raghavan, Head of People Operations
+Supersedes     : NT-HR-002 v2.3 (Remote Working Guidelines, 2024)
+
+--------------------------------------------------------------------
+1. OVERVIEW
+--------------------------------------------------------------------
+NovaTech operates a hybrid working model. The office is the default
+place of work, and Work From Home (WFH) is an approved flexibility,
+not an entitlement. This policy describes how many WFH days employees
+get, how to request them, and the conditions attached.
+
+WFH is NOT leave. On a WFH day the employee is fully working and is
+expected to be available, contactable and productive.
+
+--------------------------------------------------------------------
+2. HOW MANY WFH DAYS DO I GET?
+--------------------------------------------------------------------
+Confirmed employees      : 8 WFH days per calendar month
+Employees on probation   : 4 WFH days per calendar month, and only
+                           after completing the first 60 days of
+                           employment. During the first 60 days, WFH
+                           is not permitted except under Section 6.
+Interns                  : Not eligible for WFH.
+
+WFH days do not carry over. Unused WFH days in January do not increase
+the February allowance.
+
+A maximum of 3 consecutive WFH days may be taken without additional
+approval. 4 or more consecutive WFH days require HR Business Partner
+approval in addition to manager approval.
+
+--------------------------------------------------------------------
+3. ANCHOR DAYS
+--------------------------------------------------------------------
+Every team has two "anchor days" each week on which all team members
+are expected in the office. Anchor days are set by the reporting
+manager and published on the team's NovaPeople calendar.
+
+Company-wide anchor day: the first Wednesday of every month is an
+in-office day for all employees at all locations (All-Hands day).
+WFH is not approved on this day except under Section 6.
+
+--------------------------------------------------------------------
+4. HOW TO REQUEST WFH
+--------------------------------------------------------------------
+Step 1 : Open NovaPeople (people.novatech.internal)
+Step 2 : Choose "Attendance" then "Request Work From Home"
+Step 3 : Select the date(s) and give a one-line reason
+Step 4 : Submit at least 24 hours before the WFH day
+
+Requests submitted less than 24 hours in advance are treated as
+"Unplanned WFH" and require the manager to approve them in writing on
+the same day. More than 2 Unplanned WFH days in a month will be
+flagged to the HR Business Partner.
+
+Manager approval is recorded in NovaPeople. A verbal "yes" from a
+manager is not a valid approval and will show as an unapproved absence
+in the monthly attendance report.
+
+--------------------------------------------------------------------
+5. EXPECTATIONS WHILE WORKING FROM HOME
+--------------------------------------------------------------------
+- Be reachable on NovaChat and by phone during core hours
+  (11:00 AM to 4:00 PM IST).
+- Mark your attendance in NovaPeople by clicking "Start Day" and
+  "End Day". Badge swipe obviously does not apply. Attendance rules for
+  WFH days are described in NT-HR-003 (Attendance Policy).
+- Join all scheduled meetings with camera on where the meeting
+  organiser has requested it.
+- Use the NovaConnect VPN for any access to internal systems. See
+  NT-IT-003 (VPN Policy).
+- Work from a location in India with a stable internet connection of
+  at least 25 Mbps download.
+- Company data must not be accessed on personal devices. See
+  NT-IT-001 (Laptop and Device Policy).
+
+--------------------------------------------------------------------
+6. EXCEPTIONS AND SPECIAL SITUATIONS
+--------------------------------------------------------------------
+6.1 Medical WFH
+    Employees with a medical condition, recent surgery, or pregnancy
+    may be approved for extended WFH of up to 60 calendar days with a
+    doctor's note submitted to the HR Business Partner. Medical WFH
+    does not count against the monthly 8-day or 4-day allowance, and
+    is available during probation.
+
+6.2 Work From Anywhere (WFA)
+    Once per leave year, an employee may work from any location in
+    India for up to 20 consecutive working days. WFA requires:
+      - 21 calendar days advance notice
+      - Reporting manager approval
+      - Director-level (L5+) approval
+      - Confirmation that the employee is not on probation
+    Working from outside India is not permitted under this policy for
+    tax and data-residency reasons. Short business trips abroad are
+    covered separately by NT-FIN-002 (Travel Policy) and are not WFA.
+
+6.3 Emergency / Force Majeure
+    In the event of a declared city-level disruption (flooding,
+    transport strike, public health order), the Site Leader may declare
+    a company-wide WFH day. These days do NOT count against the monthly
+    allowance.
+
+6.4 Weather or Local Disruption at Individual Level
+    If an employee cannot reach the office due to a local issue, they
+    may take an Unplanned WFH day. If they cannot work at all, it is
+    leave, not WFH. See NT-HR-001 (Leave Policy).
+
+--------------------------------------------------------------------
+7. HOME OFFICE SUPPORT
+--------------------------------------------------------------------
+Employees working from home receive an internet allowance of
+INR 1,200 per month. This is paid automatically with salary for
+confirmed employees and does NOT require an expense claim. Do not
+submit internet bills to NovaSpend; such claims will be rejected.
+See NT-FIN-003 (Reimbursement Policy), Section 6.
+
+A one-time home office setup allowance of INR 15,000 is available to
+employees designated as Fully Remote in their offer letter. Hybrid
+employees are not eligible for this allowance.
+
+--------------------------------------------------------------------
+8. WITHDRAWAL OF WFH
+--------------------------------------------------------------------
+WFH privileges may be temporarily withdrawn by the reporting manager
+where there is a documented performance concern, a project-critical
+phase, or repeated unavailability during core hours. Withdrawal must
+be communicated in writing with a defined review date, and a copy sent
+to the HR Business Partner.
+
+--------------------------------------------------------------------
+9. CONTACTS
+--------------------------------------------------------------------
+WFH allowance / balance    : people@novatech.example (ext. 2100)
+Anchor day conflicts       : Your reporting manager
+Medical WFH                : Your HR Business Partner
+Internet allowance missing : payroll@novatech.example (ext. 3310)
+VPN not connecting on WFH  : helpdesk@novatech.example (ext. 4444)

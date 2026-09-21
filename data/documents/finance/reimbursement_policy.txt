@@ -1,0 +1,168 @@
+NOVATECH SOLUTIONS PRIVATE LIMITED
+PROCESS DOCUMENT
+
+Document ID    : NT-FIN-003
+Title          : Expense Claim Submission and Reimbursement Process
+Department     : Finance - Accounts Payable
+Version        : 2.8
+Effective Date : 01 April 2026
+Owner          : Accounts Payable Team
+Related        : NT-FIN-001 (what you may spend), NT-FIN-002 (travel)
+
+This document explains HOW to get your money back. What you are
+allowed to spend, and up to what limit, is in NT-FIN-001 and
+NT-FIN-002. If your question is about a limit, this is the wrong
+document.
+
+--------------------------------------------------------------------
+1. WHERE CLAIMS ARE SUBMITTED
+--------------------------------------------------------------------
+All claims go through NovaSpend at spend.novatech.internal. NovaSpend
+is an internal system, so you must be in the office or connected to
+the NovaConnect VPN to reach it (NT-IT-003, Section 1).
+
+Claims sent by email, chat or paper are not accepted and will not be
+processed.
+
+--------------------------------------------------------------------
+2. DEADLINES
+--------------------------------------------------------------------
+2.1 Submit within 30 calendar days of the expense date.
+2.2 Claims between 31 and 45 days old require a written justification
+    in the claim and Department Head approval.
+2.3 Claims older than 45 calendar days are not payable. NovaSpend
+    blocks the submission. There is no appeal process for this.
+2.4 For a multi-day business trip, the clock starts on the last day of
+    the trip, not on the date of each individual receipt.
+2.5 Claims for expenses in the previous financial year must be
+    submitted by 10 April regardless of the 30-day rule.
+
+--------------------------------------------------------------------
+3. DOCUMENTS REQUIRED FOR A CLAIM
+--------------------------------------------------------------------
+3.1 Always required, for every claim:
+      - Date of expense
+      - Amount and currency
+      - Expense category
+      - Business purpose in one sentence
+      - Cost centre (pre-filled from your NovaPeople profile)
+      - Project code, if the expense is billable to a client
+
+3.2 Receipts
+      Above INR 500  : a legible receipt or invoice is mandatory
+      Up to INR 500  : a self-declaration is accepted, limited to
+                       3 self-declared items per claim and a total of
+                       INR 1,500 per month
+      Above INR 5,000: a GST-compliant tax invoice showing the NovaTech
+                       entity name, address and GSTIN is mandatory.
+                       A simple receipt is not sufficient.
+
+3.3 Category-specific documents
+      Client meal        : itemised bill plus attendee names and
+                           companies (card slip alone is rejected)
+      Team meal          : itemised bill plus the written manager
+                           approval obtained in advance
+      Local cab          : app receipt showing pickup, drop and fare
+      Mobile bill        : operator invoice in the employee's own name
+      Air travel         : e-ticket plus boarding passes for all
+                           sectors, plus the airline invoice
+      Hotel              : final folio (not the booking confirmation)
+      Per diem           : no receipt required, but trip dates must
+                           match the approved TRF
+      Mileage            : distance log with date, route and purpose
+      Certification      : invoice plus proof of completion or
+                           enrolment
+      Any expense above
+      INR 10,000         : the pre-approval number from NovaSpend
+
+3.4 File format: PDF, JPG or PNG. Maximum 10 MB per file. Photographs
+    of receipts are acceptable if all four corners and the total are
+    readable. Screenshots of a payment app alone are not acceptable as
+    a receipt.
+
+3.5 Foreign currency: attach the card statement or forex slip showing
+    the actual rate charged. If none is attached, NovaSpend applies
+    the RBI reference rate for the transaction date.
+
+--------------------------------------------------------------------
+4. APPROVAL AND PROCESSING
+--------------------------------------------------------------------
+Stage 1 : Manager approval. Target 3 business days. Auto-reminder at
+          day 3, auto-escalation to skip-level at day 5.
+Stage 2 : Finance verification. Target 4 business days. Finance checks
+          policy limits, receipts and duplicates.
+Stage 3 : Payment queue.
+
+--------------------------------------------------------------------
+5. PAYMENT CYCLE
+--------------------------------------------------------------------
+5.1 Reimbursements are paid once a month, with salary, on the last
+    working day of the month.
+5.2 To be included in a given month's payout, a claim must be fully
+    approved by Finance on or before the 25th of that month.
+5.3 A claim approved on the 26th or later is paid in the following
+    month's cycle.
+5.4 Payment is made to the same bank account registered for salary.
+    Bank details are changed through NovaPeople, not NovaSpend, and a
+    change made after the 20th applies from the next cycle.
+5.5 Out-of-cycle payment is available only for claims above
+    INR 50,000, on Controller approval, and is processed within
+    5 business days of that approval.
+5.6 Reimbursements are not taxable income and appear as a separate
+    line on the payslip, not in gross earnings.
+
+--------------------------------------------------------------------
+6. WHAT NOT TO SUBMIT HERE
+--------------------------------------------------------------------
+These are paid through other routes and will be rejected in NovaSpend:
+  - Home internet - fixed allowance with salary (NT-HR-002, Sec 7)
+  - Home office setup for fully remote employees - one-time payment
+    through Payroll, initiated by HR
+  - Laptop or accessory purchases - requested through NovaDesk
+    (NT-IT-001, Sec 1)
+  - Laptop repairs - paid centrally by IT (NT-IT-001, Sec 6.4)
+  - Travel insurance - arranged by the company (NT-FIN-002, Sec 7.2)
+  - Relocation costs - separate process owned by HR (NT-HR-011)
+  - Leave encashment - processed in final settlement by Payroll
+
+--------------------------------------------------------------------
+7. REJECTED CLAIMS
+--------------------------------------------------------------------
+7.1 A rejected claim shows the reason in NovaSpend and triggers an
+    email.
+7.2 You may correct and resubmit within 7 calendar days of the
+    rejection. A resubmission within this window keeps the original
+    submission date for the purposes of the 30-day and 45-day
+    deadlines in Section 2.
+7.3 After 7 calendar days the claim is closed and a fresh claim is
+    required, subject to the normal deadlines.
+7.4 Most common rejection reasons, in order:
+      1. Missing or illegible receipt
+      2. Amount exceeds the category limit
+      3. Wrong policy applied (local meal limit claimed while on
+         travel, or travel per diem claimed for a day in base city)
+      4. Missing pre-approval number for an expense above INR 10,000
+      5. Card slip submitted instead of an itemised bill
+      6. Duplicate of a claim already submitted
+
+--------------------------------------------------------------------
+8. TRACKING AND QUERIES
+--------------------------------------------------------------------
+NovaSpend > My Claims shows one of these statuses:
+  Draft, Pending Manager, Pending Finance, Approved - Queued for
+  Payment, Paid, Rejected, Closed.
+
+If a claim is stuck in Pending Manager for more than 5 business days,
+use the "Nudge" button before contacting Finance. Finance cannot
+approve on a manager's behalf.
+
+--------------------------------------------------------------------
+9. CONTACTS
+--------------------------------------------------------------------
+Claim status and payment       : ap@novatech.example (ext. 3305)
+NovaSpend errors and uploads   : novaspend-help@novatech.example
+Policy limits and eligibility  : finance-ops@novatech.example
+                                 (ext. 3300)
+Bank account changes           : payroll@novatech.example (ext. 3310)
+Travel bookings and TRF issues : traveldesk@novatech.example
+                                 (ext. 3350)

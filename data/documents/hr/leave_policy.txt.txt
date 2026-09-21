@@ -1,0 +1,156 @@
+NOVATECH SOLUTIONS PRIVATE LIMITED
+INTERNAL POLICY DOCUMENT
+
+Document ID    : NT-HR-001
+Title          : Annual Leave and Time-Off Policy
+Department     : Human Resources
+Version        : 3.2
+Effective Date : 01 January 2026
+Last Reviewed  : 15 December 2025
+Owner          : Priya Raghavan, Head of People Operations
+Applies To     : All full-time employees of NovaTech Solutions (India entity)
+
+--------------------------------------------------------------------
+SECTION 1 - PURPOSE
+--------------------------------------------------------------------
+This policy defines the types of leave available to NovaTech employees,
+how leave is accrued, how it is approved, and what happens to unused
+leave. It applies to all full-time employees. Interns and contractors
+are covered under a separate agreement (NT-HR-014) and are NOT covered
+by this document.
+
+--------------------------------------------------------------------
+SECTION 2 - THE LEAVE YEAR
+--------------------------------------------------------------------
+The NovaTech leave year runs from 01 January to 31 December. This is
+the same as the NovaTech financial reporting year.
+
+--------------------------------------------------------------------
+SECTION 3 - LEAVE TYPES AND ENTITLEMENTS
+--------------------------------------------------------------------
+
+3.1 Annual Leave (also called Earned Leave)
+    Confirmed employees receive 24 days of Annual Leave per leave year.
+    Annual Leave accrues at 2 days per completed calendar month.
+    Annual Leave is credited on the 1st of each month.
+
+3.2 Sick Leave
+    All employees receive 12 days of Sick Leave per leave year.
+    Sick Leave is credited in full on 01 January (or on the joining
+    date, pro-rated, for new joiners).
+    A medical certificate is required for any Sick Leave absence of
+    3 or more consecutive days.
+    Sick Leave cannot be carried forward and cannot be encashed.
+
+3.3 Optional Holidays
+    Every employee may take 2 Optional Holidays per year from the
+    published Optional Holiday list. See NT-GEN-001 (Working Hours and
+    Holidays) for the list of dates. Optional Holidays must be applied
+    for at least 3 working days in advance.
+
+3.4 Maternity Leave
+    26 weeks of paid leave for the first two children.
+    12 weeks for the third child onwards.
+    Must be notified to the HR Business Partner at least 8 weeks before
+    the expected start date.
+
+3.5 Paternity Leave
+    15 working days, to be used within 6 months of the child's birth.
+    May be taken in a maximum of 3 separate blocks.
+
+3.6 Bereavement Leave
+    5 working days for the death of an immediate family member
+    (spouse, parent, child, sibling, parent-in-law).
+    2 working days for extended family.
+    No documentation is required. Notification by message to the
+    reporting manager is sufficient.
+
+3.7 Marriage Leave
+    5 working days, available once during the employee's tenure at
+    NovaTech. Requires 30 days advance notice.
+
+3.8 Leave Without Pay (LWP)
+    Granted only after all Annual Leave is exhausted.
+    Requires approval from the reporting manager AND the HR Business
+    Partner. Maximum 20 working days in a leave year.
+
+--------------------------------------------------------------------
+SECTION 4 - LEAVE DURING PROBATION
+--------------------------------------------------------------------
+Employees serving probation accrue Annual Leave at the normal rate of
+2 days per month, but may USE a maximum of 6 days of Annual Leave
+during the entire probation period. Accrued but unused days are
+released for use upon confirmation.
+
+Sick Leave is available in full from day one and is NOT restricted
+during probation.
+
+Full details of probation terms are in NT-HR-004 (Probation Policy).
+
+--------------------------------------------------------------------
+SECTION 5 - APPLYING FOR LEAVE
+--------------------------------------------------------------------
+All leave is applied for on the NovaPeople portal
+(people.novatech.internal). Email or verbal requests are not valid
+leave applications.
+
+Required advance notice:
+  1 to 2 days of leave        - 2 working days notice
+  3 to 5 days of leave        - 7 calendar days notice
+  6 to 10 days of leave       - 14 calendar days notice
+  More than 10 days of leave  - 30 calendar days notice
+
+Approval chain:
+  Up to 5 consecutive days    - Reporting manager only
+  6 to 10 consecutive days    - Reporting manager + HR Business Partner
+  More than 10 days           - Reporting manager + HR Business Partner
+                                + skip-level manager
+
+Managers must action a leave request within 3 working days. If no
+action is taken within 5 working days, the request is auto-escalated
+to the skip-level manager on NovaPeople.
+
+--------------------------------------------------------------------
+SECTION 6 - EXCEPTIONS
+--------------------------------------------------------------------
+6.1 Emergency Leave
+    Where advance notice is impossible (accident, hospitalisation,
+    family emergency), the employee must inform the reporting manager
+    by phone or message before 11:00 AM on the first day of absence,
+    and must file the leave request on NovaPeople within 3 working days
+    of returning.
+
+6.2 Blackout Periods
+    Annual Leave of more than 3 consecutive days is not normally
+    approved during:
+      - The last 5 working days of any quarter (Finance and Sales only)
+      - A declared production freeze window (Engineering only)
+    Exceptions require skip-level manager approval.
+
+6.3 Half-Day Leave
+    Annual Leave and Sick Leave may be taken in half-day units.
+    First half = 09:30 to 13:30. Second half = 14:30 to 18:30.
+    A maximum of 4 half-days may be taken in a single calendar month.
+
+--------------------------------------------------------------------
+SECTION 7 - CARRY FORWARD AND ENCASHMENT
+--------------------------------------------------------------------
+A maximum of 10 unused Annual Leave days may be carried forward into
+the next leave year. Carried-forward days must be used by 31 March or
+they lapse with no compensation.
+
+Annual Leave cannot be encashed while employed. On resignation or
+termination, up to 15 days of accrued unused Annual Leave are encashed
+at basic salary rate in the final settlement.
+
+--------------------------------------------------------------------
+SECTION 8 - WHO TO CONTACT
+--------------------------------------------------------------------
+Leave balance queries      : people@novatech.example  (ext. 2100)
+Policy interpretation      : Your assigned HR Business Partner
+NovaPeople portal errors   : helpdesk@novatech.example (ext. 4444)
+Maternity / Paternity      : maternity-support@novatech.example
+
+Note: Leave is not the same as Work From Home. Working remotely is NOT
+leave and must not be applied for on NovaPeople as leave. See
+NT-HR-002 (Work From Home Policy).
