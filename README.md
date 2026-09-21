@@ -1,8 +1,10 @@
-# 🧠 Enterprise Knowledge Assistant
+# 🧠 Enterprise Knowledge & Action Assistant
 
-An AI-powered enterprise knowledge assistant that allows employees to ask questions about internal company policies and documents using natural language.
+An AI-powered enterprise knowledge and action assistant that allows employees to ask questions about internal company policies and documents using natural language.
 
-The application uses **Retrieval-Augmented Generation (RAG)** to retrieve relevant information from company documents and provide it as context to a Large Language Model (LLM) before generating an answer.
+The application uses **Retrieval-Augmented Generation (RAG)** to retrieve relevant information from company documents and provide it as context to an LLM before generating a grounded answer.
+
+It also includes authentication, protected APIs, document upload, document indexing, conversational sessions, and IT support tool calling.
 
 ---
 
@@ -10,7 +12,7 @@ The application uses **Retrieval-Augmented Generation (RAG)** to retrieve releva
 
 In an organization, employees often need to search through policies, guidelines, and internal documentation to find specific information.
 
-The **Enterprise Knowledge Assistant** provides a conversational way to interact with this information.
+The **Enterprise Knowledge & Action Assistant** provides a conversational way to interact with this information.
 
 Instead of manually searching through documents, users can ask questions such as:
 
@@ -18,10 +20,12 @@ Instead of manually searching through documents, users can ask questions such as
 * Who is eligible for remote work?
 * How many days of remote work are allowed?
 * Who approves a work-from-home request?
-* What are the hybrid working requirements?
-* What security requirements apply when working remotely?
+* How many annual leaves does a confirmed employee receive?
+* Can annual leave be carried forward?
 
-The system retrieves relevant sections from the knowledge base and uses them as context for generating an answer.
+The assistant retrieves relevant information from the knowledge base and uses it as context for generating an answer.
+
+The application also supports action-oriented workflows such as creating and checking IT support tickets using LLM tool calling.
 
 ---
 
@@ -29,7 +33,7 @@ The system retrieves relevant sections from the knowledge base and uses them as 
 
 Traditional document-based knowledge systems require employees to manually search through large amounts of information.
 
-This project explores how **Generative AI and Retrieval-Augmented Generation (RAG)** can provide a more natural way of accessing enterprise knowledge.
+This project explores how **Generative AI, Retrieval-Augmented Generation, semantic search, and tool calling** can provide a more natural way of accessing enterprise knowledge and performing simple business actions.
 
 The goal is to allow users to ask questions in everyday language while keeping generated answers grounded in the available documentation.
 
@@ -38,139 +42,249 @@ The goal is to allow users to ask questions in everyday language while keeping g
 ## ⭐ Key Highlights
 
 * Built an end-to-end **RAG-based enterprise knowledge assistant**
-* Implemented document processing and text chunking
-* Generated embeddings for semantic retrieval
-* Used **ChromaDB** for vector-based search
+* Implemented document loading and processing
+* Implemented text chunking
+* Generated OpenAI embeddings
+* Implemented semantic retrieval using **FAISS**
 * Integrated an LLM for context-aware answer generation
-* Built a conversational **Gradio interface**
-* Implemented user authentication
+* Added grounded responses with automatic source information
+* Implemented conversational history
+* Implemented LLM tool calling
+* Added mock IT ticket creation and lookup
+* Implemented user registration and login
+* Added password hashing
+* Added JWT-based authentication
 * Added protected API endpoints
-* Added document upload and indexing functionality
-* Used SQLite for local application data
+* Added document upload and indexing
+* Added SQLite for application data
+* Added a conversational Gradio interface
 * Configured sensitive credentials through environment variables
-* Designed responses to remain grounded in retrieved documentation
+* Added hallucination-control behavior for unsupported questions
 
 ---
 
-## 🧠 How It Works
+# 🧠 How It Works
 
 The application follows a Retrieval-Augmented Generation workflow:
 
 ```text
-                  Company Documents
-                         │
-                         ▼
+                    Company Documents
+                           │
+                           ▼
                   Document Processing
-                         │
-                         ▼
-                    Text Chunking
-                         │
-                         ▼
-                     Embeddings
-                         │
-                         ▼
-                  Vector Database
-                         │
-                         │
-  User Question ─────────┤
-                         ▼
-                  Similarity Search
-                         │
-                         ▼
+                           │
+                           ▼
+                     Text Chunking
+                           │
+                           ▼
+                       Embeddings
+                           │
+                           ▼
+                     FAISS Index
+                           │
+                           │
+User Question ─────────────┤
+                           ▼
+                   Similarity Search
+                           │
+                           ▼
                 Relevant Document Chunks
-                         │
-                         ▼
-                       LLM
-                         │
-                         ▼
-                  Grounded Answer
+                           │
+                           ▼
+                         LLM
+                           │
+                           ▼
+                   Grounded Answer
 ```
 
-The retrieval step provides relevant information from the knowledge base to the LLM, helping the application generate answers based on the available documentation.
+For action-oriented requests, the system can also use tools:
+
+```text
+User Request
+     │
+     ▼
+     LLM
+     │
+     ├──────────────► Knowledge Retrieval
+     │
+     └──────────────► Tool Calling
+                           │
+                           ▼
+                    IT Support Tools
+                           │
+                           ▼
+                    Tool Result
+                           │
+                           ▼
+                    Assistant Response
+```
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-### 🔎 Knowledge Retrieval
+## 🔎 Knowledge Retrieval
 
 * Natural-language question answering
 * Semantic document search
 * Retrieval-Augmented Generation
 * Context-aware responses
 * Vector similarity search
+* Grounded answers
+* Source information for retrieved chunks
+* "I don't know" behavior when information is unavailable
 
-### 📄 Document Management
+## 📄 Document Management
 
-* Document upload
-* Document processing
+* Document loading
+* Text extraction
 * Text chunking
-* Document indexing
 * Embedding generation
+* FAISS indexing
+* Document upload
+* Automatic document indexing
+* PDF and DOCX support through the API
 
-### 🔐 Authentication
+## 💬 Conversation
+
+* Multi-turn conversations
+* Session-based conversation history
+* Follow-up questions
+* Context-aware responses
+
+## 🤖 Tool Calling
+
+The assistant can interact with mock enterprise tools.
+
+Current IT support tools include:
+
+* Create IT ticket
+* Get IT ticket
+* List IT tickets
+
+Example:
+
+```text
+User:
+Create an IT ticket. My laptop is not connecting to VPN.
+
+Assistant:
+IT ticket created successfully.
+Ticket ID: IT-0001
+Issue: Laptop is not connecting to VPN
+Priority: high
+Status: Open
+```
+
+The assistant can also retrieve an existing ticket:
+
+```text
+User:
+What is the status of IT-0001?
+
+Assistant:
+Ticket found.
+Ticket ID: IT-0001
+Issue: Laptop is not connecting to VPN
+Priority: high
+Status: Open
+```
+
+## 🔐 Authentication
 
 * User registration
 * User login
 * Password hashing
-* Token-based authentication
+* JWT access tokens
+* Token validation
 * Protected API endpoints
 
-### 💬 User Interface
+## 🌐 API
 
-* Conversational Gradio interface
-* Simple natural-language interaction
-* Knowledge-base question answering
+The project uses FastAPI for backend API development.
 
----
+Available endpoints include:
 
-## 🛠️ Tech Stack
+```text
+GET  /
+GET  /health
+POST /register
+POST /login
+POST /chat
+POST /upload
+```
 
-| Technology        | Purpose                              |
-| ----------------- | ------------------------------------ |
-| **Python**        | Application development              |
-| **FastAPI**       | Backend API                          |
-| **LangChain**     | RAG and LLM workflow                 |
-| **LLM API**       | Answer generation                    |
-| **Embeddings**    | Semantic representation of documents |
-| **ChromaDB**      | Vector storage and similarity search |
-| **SQLite**        | Local application data               |
-| **Gradio**        | User interface                       |
-| **Pydantic**      | Data validation                      |
-| **Python-dotenv** | Environment configuration            |
-| **Git & GitHub**  | Version control                      |
+## 🖥️ User Interface
+
+The project includes a conversational Gradio interface for interacting with the assistant.
 
 ---
 
-## 📂 Project Structure
+# 🛠️ Tech Stack
+
+| Technology        | Purpose                      |
+| ----------------- | ---------------------------- |
+| **Python**        | Application development      |
+| **FastAPI**       | Backend API                  |
+| **OpenAI API**    | Embeddings and LLM responses |
+| **FAISS**         | Vector similarity search     |
+| **Gradio**        | User interface               |
+| **SQLite**        | Local application database   |
+| **Pydantic**      | Data validation              |
+| **python-dotenv** | Environment configuration    |
+| **PyPDF**         | PDF processing               |
+| **python-docx**   | DOCX processing              |
+| **Git & GitHub**  | Version control              |
+
+---
+
+# 📂 Project Structure
 
 ```text
 enterprise-knowledge-assistant/
 │
 ├── app/
 │   ├── assistant.py
+│   ├── answer.py
 │   ├── auth.py
+│   ├── chunk_document.py
+│   ├── conversation.py
 │   ├── database.py
+│   ├── document_loader.py
+│   ├── embed_and_store.py
 │   ├── gradio_app.py
 │   ├── index_documents.py
-│   └── ...
+│   ├── main.py
+│   ├── retrieve.py
+│   ├── tool_agent.py
+│   └── tools.py
 │
 ├── data/
-│   └── Local project data
+│   ├── documents/
+│   │   ├── hr/
+│   │   ├── it/
+│   │   ├── finance/
+│   │   └── general/
+│   │
+│   └── vector_store/
+│       ├── company_knowledge.index
+│       └── chunks.json
 │
-├── main.py
+├── assets/
+│
+├── .env
+├── .gitignore
 ├── README.md
-├── requirements.txt
-└── .gitignore
+└── requirements.txt
 ```
 
-> Local environment files, API keys, databases, generated files, and other unnecessary files should not be committed to GitHub.
+> Local environment files, API keys, databases, generated vector indexes, and other sensitive or unnecessary files should not be committed to GitHub.
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/TauqeerHusain/enterprise-knowledge-assistant.git
@@ -180,162 +294,439 @@ git clone https://github.com/TauqeerHusain/enterprise-knowledge-assistant.git
 cd enterprise-knowledge-assistant
 ```
 
-### 2. Create a Virtual Environment
+---
 
-#### Windows
+# 2. Create Virtual Environment
+
+## Windows
 
 ```bash
 python -m venv .venv
 ```
 
-Activate it:
+Activate the environment:
 
-```bash
+```powershell
 .venv\Scripts\activate
 ```
 
-#### macOS / Linux
+After activation, the terminal should show:
 
-```bash
-python3 -m venv .venv
+```text
+(.venv)
 ```
 
-Activate it:
+at the beginning of the command prompt.
+
+Verify Python:
 
 ```bash
-source .venv/bin/activate
+python --version
 ```
 
-### 3. Install Dependencies
+Verify the active Python executable:
+
+```bash
+where python
+```
+
+The Python path should point to the project's `.venv` directory.
+
+---
+
+## Existing `.venv312` Environment
+
+During development, a Python 3.12 environment named `.venv312` was also used.
+
+To activate it on Windows:
+
+```powershell
+.venv312\Scripts\activate
+```
+
+However, for a fresh installation, `.venv` is the recommended environment.
+
+---
+
+# 3. Install Dependencies
+
+After activating the virtual environment:
 
 ```bash
 pip install -r requirements.txt
 ```
 
+If FastAPI and Uvicorn are not already included in `requirements.txt`, install them with:
+
+```bash
+pip install fastapi uvicorn
+```
+
 ---
 
-## 🔐 Environment Configuration
+# 🔐 Environment Configuration
 
-Create a `.env` file in the project root and add the API credentials required by the application.
-
-For example:
+Create a `.env` file in the project root:
 
 ```env
 OPENAI_API_KEY=your_api_key_here
 ```
 
-> The exact environment variables depend on the LLM and services configured in the application.
+Never commit the real API key to GitHub.
 
-**Never commit API keys or `.env` files to GitHub.**
+The `.gitignore` file should include:
+
+```text
+.env
+.venv
+.venv312
+__pycache__
+```
 
 ---
 
-## ▶️ Running the Application
+# 🗂️ Knowledge Base
 
-After installing the dependencies and configuring the required environment variables, run:
+The project uses **fictional internal-style company documentation** as its knowledge source.
+
+The current knowledge base contains documents covering areas such as:
+
+### HR
+
+* Annual leave
+* Sick leave
+* Work from home
+* Hybrid working
+* Attendance
+
+### IT
+
+* Laptop policy
+* Password policy
+* VPN policy
+* IT support
+
+### Finance
+
+* Expense policy
+* Travel policy
+* Reimbursement policy
+
+### General
+
+* Working hours
+* Holidays
+
+The documents are processed, chunked, embedded, and indexed for semantic retrieval.
+
+---
+
+# 🔍 RAG Pipeline
+
+## 1. Document Loading
+
+Company documentation is loaded from the `data/documents/` directory.
+
+## 2. Text Chunking
+
+Large documents are divided into smaller chunks.
+
+This makes semantic retrieval more efficient.
+
+## 3. Embedding Generation
+
+Each chunk is converted into a numerical vector using:
+
+```text
+text-embedding-3-small
+```
+
+## 4. Vector Indexing
+
+The embeddings are stored in a **FAISS index**.
+
+The generated vector store contains:
+
+```text
+data/vector_store/
+├── company_knowledge.index
+└── chunks.json
+```
+
+## 5. User Query
+
+The user submits a natural-language question.
+
+## 6. Query Embedding
+
+The question is converted into an embedding using the same embedding model.
+
+## 7. Similarity Search
+
+FAISS searches for the most relevant document chunks.
+
+## 8. Context Retrieval
+
+The retrieved chunks are provided to the LLM as context.
+
+## 9. Answer Generation
+
+The LLM generates a response using the retrieved company information.
+
+---
+
+# 🛡️ Hallucination Control
+
+The assistant is designed to answer questions using the available company documentation.
+
+The prompt instructs the model not to invent information.
+
+When the available documents do not contain the requested information, the assistant can respond:
+
+```text
+I don't know based on the available company documents.
+```
+
+This helps reduce unsupported answers in enterprise knowledge scenarios.
+
+---
+
+# 🤖 Tool Calling
+
+The project also demonstrates LLM function/tool calling.
+
+The assistant can select an appropriate tool based on the user's request.
+
+Available tools:
+
+```text
+create_it_ticket
+get_ticket
+list_tickets
+```
+
+Example:
+
+```text
+User:
+Create an IT ticket. My laptop is not connecting to VPN.
+```
+
+The LLM can select:
+
+```text
+create_it_ticket
+```
+
+The Python application executes the function and returns the result.
+
+This demonstrates the basic architecture used by AI agents to interact with external systems.
+
+---
+
+# ▶️ Running the Application
+
+## Run FastAPI
+
+Make sure the virtual environment is activated:
+
+```powershell
+.venv\Scripts\activate
+```
+
+The FastAPI application is located at:
+
+```text
+app/main.py
+```
+
+Run it from the project root:
+
+```bash
+python -m uvicorn app.main:app --reload
+```
+
+The API will normally be available at:
+
+```text
+http://127.0.0.1:8000
+```
+
+Swagger API documentation:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+---
+
+## Run FastAPI on Port 8001
+
+If the frontend or another application is configured to use port `8001`, run:
+
+```bash
+python -m uvicorn app.main:app --reload --port 8001
+```
+
+The API will then be available at:
+
+```text
+http://127.0.0.1:8001
+```
+
+Swagger:
+
+```text
+http://127.0.0.1:8001/docs
+```
+
+---
+
+# 🖥️ Run Gradio
+
+Activate the virtual environment:
+
+```powershell
+.venv\Scripts\activate
+```
+
+Then run:
 
 ```bash
 python -m app.gradio_app
 ```
 
-The Gradio interface will start locally.
-
-Open the local URL shown in the terminal, typically:
-
-```text
-http://127.0.0.1:7860
-```
-
-### Windows
-
-If you already have a virtual environment named `.venv312`, you can also run:
+If using the Python 3.12 environment:
 
 ```powershell
 .venv312\Scripts\python.exe -m app.gradio_app
 ```
 
-For other users, the recommended command is:
+Gradio will normally start at:
 
-```bash
-python -m app.gradio_app
+```text
+http://127.0.0.1:7860
 ```
 
 ---
 
-## 📚 Knowledge Base
+# 🔑 Authentication Flow
 
-The project uses **fictional internal-style company documentation** as its knowledge source.
+The application supports:
+
+```text
+Register
+   │
+   ▼
+Username + Password
+   │
+   ▼
+Password Hashing
+   │
+   ▼
+SQLite Database
+```
+
+For login:
+
+```text
+Username + Password
+        │
+        ▼
+Password Verification
+        │
+        ▼
+JWT Access Token
+        │
+        ▼
+Protected API Requests
+```
+
+Protected endpoints require a valid bearer token.
+
+---
+
+# 📡 API Examples
+
+## Health Check
+
+```http
+GET /health
+```
+
+Response:
+
+```json
+{
+  "status": "healthy"
+}
+```
+
+## Register
+
+```http
+POST /register
+```
 
 Example:
 
-**NovaTech Solutions — Work From Home and Hybrid Working Policy**
+```json
+{
+  "username": "employee1",
+  "password": "password123"
+}
+```
 
-The policy contains information related to:
+## Login
 
-* Employee eligibility
-* Remote-work guidelines
-* Hybrid working
-* Employee responsibilities
-* Manager responsibilities
-* Security requirements
-* Attendance expectations
-* Exceptions and approvals
+```http
+POST /login
+```
 
-The documents are processed and indexed so that the RAG pipeline can retrieve relevant information when answering questions.
+Example:
 
----
+```json
+{
+  "username": "employee1",
+  "password": "password123"
+}
+```
 
-## 🔍 RAG Pipeline
+The API returns an access token.
 
-### 1. Document Processing
+## Chat
 
-Company documentation is loaded and prepared for the application.
+```http
+POST /chat
+```
 
-### 2. Text Chunking
+Example:
 
-Large documents are divided into smaller chunks so relevant sections can be retrieved efficiently.
+```json
+{
+  "question": "How many annual leaves does a confirmed employee get?",
+  "session_id": "default"
+}
+```
 
-### 3. Embedding Generation
+## Document Upload
 
-Each document chunk is converted into a numerical vector representation using an embedding model.
+```http
+POST /upload
+```
 
-### 4. Vector Storage
+Supported document types:
 
-The generated embeddings are stored in **ChromaDB**.
+```text
+.pdf
+.docx
+```
 
-### 5. User Query
-
-The user submits a natural-language question through the application.
-
-### 6. Query Embedding
-
-The question is converted into an embedding representation.
-
-### 7. Similarity Search
-
-The vector database is searched for document chunks that are semantically relevant to the question.
-
-### 8. Context Retrieval
-
-Relevant document information is provided to the LLM as context.
-
-### 9. Answer Generation
-
-The LLM generates a response using the retrieved context.
-
----
-
-## 🛡️ Hallucination Control
-
-The assistant is designed to ground its answers in information retrieved from the available knowledge base.
-
-When the required information is not available in the retrieved documentation, the application is designed to indicate that sufficient information was not found rather than confidently providing unsupported information.
-
-This approach helps improve reliability for enterprise knowledge-based question answering.
+The uploaded document is saved and then indexed.
 
 ---
 
-## 💡 Example Questions
+# 💡 Example Questions
 
 Try questions such as:
 
@@ -348,7 +739,7 @@ Who can request remote work?
 ```
 
 ```text
-What are the employee responsibilities while working remotely?
+How many WFH days are allowed for confirmed employees?
 ```
 
 ```text
@@ -356,62 +747,84 @@ What security requirements apply when working from home?
 ```
 
 ```text
-What is the process for requesting an exception?
+How many annual leaves does a confirmed employee get?
 ```
 
-The assistant retrieves relevant information from the knowledge base before generating its response.
+```text
+Can I carry forward my annual leave?
+```
+
+```text
+What is the company's dress code?
+```
+
+For information that is not available in the knowledge base, the assistant is designed to avoid confidently inventing an answer.
 
 ---
 
-## 🎯 Learning Objectives
+# 🎯 Learning Objectives
 
 This project demonstrates practical experience with:
 
-* Large Language Models (LLMs)
+* Large Language Models
 * Generative AI
-* Retrieval-Augmented Generation (RAG)
+* Retrieval-Augmented Generation
 * Embeddings
-* Vector databases
+* Vector similarity search
+* FAISS
 * Semantic search
 * Prompt engineering
 * Document processing
+* Text chunking
 * Context retrieval
-* API development
-* Authentication
+* Conversation history
+* LLM tool calling
+* AI agents
+* FastAPI
+* REST APIs
+* JWT authentication
+* Password hashing
+* SQLite
+* Gradio
+* Environment variables
 * AI application development
-* LLM-powered question answering
+* Enterprise knowledge systems
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
 Possible future improvements include:
 
-* Multi-document support
-* Source citations in responses
-* Conversation history
+* Persistent IT ticket storage
+* Pushover notifications
+* More enterprise tools
 * Role-based access control
 * Hybrid search
 * Reranking
 * Retrieval evaluation
+* Automated RAG evaluation
 * Document version management
 * User feedback
 * Cloud deployment
 * Monitoring and observability
+* Production vector database
+* Better citation formatting
+* Streaming responses
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Tauqeer Husain**
 
 Aspiring AI / LLM Engineer
 
-This project was developed as a hands-on project to demonstrate practical skills in Generative AI, Retrieval-Augmented Generation, LLM applications, API development, authentication, and AI engineering.
+This project was developed as a hands-on project to demonstrate practical skills in Generative AI, Retrieval-Augmented Generation, LLM applications, API development, authentication, semantic search, and AI engineering.
 
 ---
 
-## 📌 Disclaimer
+# 📌 Disclaimer
 
 The company, employees, policies, and documents used in this project are **fictional** and were created for demonstration and learning purposes.
 
